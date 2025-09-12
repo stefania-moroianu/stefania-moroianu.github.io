@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>About Me on </title>
+    <title>Stefania Moroianu on </title>
     <link>https://stefania-moroianu.github.io/</link>
-    <description>Recent content in About Me on </description>
+    <description>Recent content in Stefania Moroianu on </description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <atom:link href="https://stefania-moroianu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
+      <link>https://stefania-moroianu.github.io/posts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://stefania-moroianu.github.io/posts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
       <link>https://stefania-moroianu.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://stefania-moroianu.github.io/publications/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;roentgen&#34;&gt;RoentGen&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

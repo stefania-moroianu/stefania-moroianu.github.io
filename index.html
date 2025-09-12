@@ -8,10 +8,10 @@
 <meta name="robots" content="index, follow">
 <title></title>
 
-<meta name="description" content="">
+<meta name="description" content="PhD candidate at Stanford University.">
 <meta name="author" content="">
 <link rel="canonical" href="https://stefania-moroianu.github.io/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.58cd35ee54f24c18b797469aa2532c735e539c75ecccf3ab1d23912c7697bba9.css" integrity="sha256-WM017lTyTBi3l0aaolMsc15TnHXszPOrHSORLHaXu6k=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://stefania-moroianu.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://stefania-moroianu.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://stefania-moroianu.github.io/favicon-32x32.png">
@@ -29,14 +29,42 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
 </noscript><meta property="og:url" content="https://stefania-moroianu.github.io/">
-  <meta property="og:title" content="About Me">
-  <meta property="og:description" content="PhD Candidate. Stanford University.">
+  <meta property="og:title" content="Stefania Moroianu">
+  <meta property="og:description" content="PhD candidate at Stanford University.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="About Me">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Stefania Moroianu">
+<meta name="twitter:description" content="PhD candidate at Stanford University.">
 
 <script type="application/ld+json">
 {
@@ -47,7 +75,7 @@
   "description": "",
   "logo": "https://stefania-moroianu.github.io/favicon.ico",
   "sameAs": [
-      "https://github.com/stefania-moroianu", "https://scholar.google.com/citations?user=MHhN1dIAAAAJ\u0026hl=en", "https://www.linkedin.com/in/stefania-l-moroianu-6749b7151/"
+      "https://github.com/stefania-moroianu", "https://scholar.google.com/citations?user=MHhN1dIAAAAJ\u0026hl=en", "https://www.linkedin.com/in/stefania-l-moroianu-6749b7151/", "mailto:slmoro@stanford.edu"
   ]
 }
 </script>
@@ -56,6 +84,10 @@
 <body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
         document.body.classList.add('dark');
     }
 
@@ -98,13 +130,20 @@
                     <span>publications</span>
                 </a>
             </li>
+            <li>
+                <a href="https://stefania-moroianu.github.io/posts/" title="posts">
+                    <span>posts</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
-<main class="main"><div class="profile">
+<main class="main"><div class="index-container">
+    <div class="profile-wrapper">
+<div class="profile">
     <div class="profile_inner">
-        <img draggable="false" src="https://stefania-moroianu.github.io/photo_stefania_square.jpg" alt="profile image" title=""
-            height="360" width="360" />
+        <img draggable="false" src="/photo_stefania_square.jpg" alt="profile image" title=""
+            height="240" width="240" />
         <h1>Stefania Moroianu</h1>
         <span>PhD Candidate | Stanford University</span><div class="social-icons" >
     <a href="https://github.com/stefania-moroianu" target="_blank" rel="noopener noreferrer me"
@@ -117,11 +156,11 @@
 </svg>
     </a>
     <a href="https://scholar.google.com/citations?user=MHhN1dIAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer me"
-        title="Scholar">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        title="Googlescholar">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none" stroke="currentColor" stroke-width="2"
     stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+    <path
+        d="M5.242 13.769L0.5 9.5 12 1l11.5 9-5.242 3.769C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z" />
 </svg>
     </a>
     <a href="https://www.linkedin.com/in/stefania-l-moroianu-6749b7151/" target="_blank" rel="noopener noreferrer me"
@@ -133,11 +172,28 @@
     <circle cx="4" cy="4" r="2"></circle>
 </svg>
     </a>
+    <a href="mailto:slmoro@stanford.edu" target="_blank" rel="noopener noreferrer me"
+        title="Email">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 21" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+    <polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+    </a>
 </div>
 
     </div>
 </div>
 
+    </div>
+    <div class="post-content">
+      <h2 id="about-me">about me</h2>
+<p>I am a PhD candidate in Stanford’s Applied Physics program advised by <a href="https://profiles.stanford.edu/akshay-chaudhari">Akshay Chaudhari</a>.
+My research focuses on developing artificial intelligence methods for medical image analysis.</p>
+<p>Previously, I graduated from University of Cambridge with a B.A. in Natural Sciences and an M.Sci. in Theoretical Physics.</p>
+
+    </div>
+  </div>
     </main>
     
 <footer class="footer">
