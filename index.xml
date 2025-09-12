@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Stefania Moroianu on </title>
+    <title></title>
     <link>https://stefania-moroianu.github.io/</link>
-    <description>Recent content in Stefania Moroianu on </description>
+    <description>Recent content on </description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <atom:link href="https://stefania-moroianu.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -15,11 +15,31 @@
       <description></description>
     </item>
     <item>
-      <title></title>
+      <title>Publications</title>
       <link>https://stefania-moroianu.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://stefania-moroianu.github.io/publications/</guid>
-      <description>&lt;h2 id=&#34;roentgen&#34;&gt;RoentGen&lt;/h2&gt;</description>
+      <description>&lt;div class=&#34;publication-entry&#34;&gt;
+  &lt;div class=&#34;publication-thumbnail&#34;&gt;
+    &lt;img src=&#34;https://stefania-moroianu.github.io/images/roentgenv2.jpg&#34; alt=&#34;Thumbnail for Improving Performance, Robustness, and Fairness of Radiographic AI Models with Finely-Controllable Synthetic Data&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;publication-details&#34;&gt;
+    &lt;p&gt;&lt;strong&gt;Improving Performance, Robustness, and Fairness of Radiographic AI Models with Finely-Controllable Synthetic Data&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;&lt;strong&gt;Stefania L. Moroianu&lt;/strong&gt;, Christian Bluethgen, Pierre Chambon, Mehdi Cherti, Jean-Benoit Delbrouck, Magdalini Paschali, Brandon Price, Judy Gichoya, Jenia Jitsev, Curtis P. Langlotz, Akshay S. Chaudhari&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;Preprint (2025)&lt;/p&gt;
+    &lt;p class=&#34;publication-links&#34;&gt;
+      &lt;a href=&#34;https://arxiv.org/abs/2508.16783&#34; target=&#34;_blank&#34;&gt;Paper&lt;/a&gt;
+      &lt;a href=&#34;https://github.com/StanfordMIMI/RoentGen-v2&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;
+      
+    &lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;publication-entry&#34;&gt;
+  &lt;div class=&#34;publication-thumbnail&#34;&gt;
+    &lt;img src=&#34;https://stefania-moroianu.github.io/images/epenet.png&#34; alt=&#34;Thumbnail for Computational Detection of Extraprostatic Extension of Prostate Cancer on Multiparametric MRI Using Deep Learning&#34;&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;publication-details&#34;&gt;
+    &lt;p&gt;&lt;strong&gt;Computational Detection of Extraprostatic Extension of Prostate Cancer on Multiparametric MRI Using Deep Learning&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
